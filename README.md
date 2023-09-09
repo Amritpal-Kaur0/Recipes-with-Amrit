@@ -1,4 +1,4 @@
-# Recipe-App
+# Recipes-with-Amrit
 
 `Enjoy exploring and cooking with the Amrit Recipe Web Application!`
 
