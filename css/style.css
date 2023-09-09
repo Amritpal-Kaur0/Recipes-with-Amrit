@@ -45,7 +45,7 @@ form{
     max-width: 400px;
     margin: 20px auto;
     background-color: rgb(171, 169, 169);
-    border-radius:10px 0px 0 10px;
+    border-radius:10px 10px 10px 10px;
 }
 form input{
     width: 90%;
@@ -57,10 +57,8 @@ form input{
     font-size: 1rem;
     display: inline-block;
 }
- form span{
-position: absolute;
-  margin-top: 15px;
-  top: 90px;
+span{
+  height: 20px;
   cursor: pointer;
 }
 .search-result{
@@ -113,4 +111,19 @@ margin-top: 10px;
     font-style: 1.4rem;
     letter-spacing: .05rem;
     line-height: 2rem;
+}
+@media(max-width:768px){
+  .search-result{
+  grid-gap:10px;
+  }
+.brand{
+  font-size: 3rem;
+}
+form{
+  max-width: 500px;
+}
+.container form input{
+  padding: 10px;
+  font-size: 1.5rem;
+}
 }
