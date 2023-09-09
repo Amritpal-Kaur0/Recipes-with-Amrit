@@ -33,7 +33,7 @@ html+=
 
 />
 <div class="flex-container">
-  <h1 class="title">${result.recipe.label}</h1>
+  <h1 class="title"> 😋${result.recipe.label}</h1>
   <a class="view-button" href=${result.recipe.url} target="_blank">View Recipe</a>
 </div>
 <p class="item-data">Calories : ${result.recipe.calories.toFixed(2)}</p>
