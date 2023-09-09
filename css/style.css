@@ -104,6 +104,12 @@ font-size: 0.9rem;
 margin-top: 10px;
 /* align-self: flex-start; */
 }
+.side-tag{
+  position: fixed;
+  top: 5px;
+  right: 10px;
+  ;
+}
 .item-data{
     color: rgb(0, 0, 0);
     display: block;
