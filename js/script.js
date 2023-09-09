@@ -1,4 +1,5 @@
 const searchForm = document.querySelector("form");
+const searchbtn = document.getElementById("search-btn");
 const searchResult = document.querySelector(".search-result");
 const container = document.querySelector(".container");
 let SearchQuery = "";
@@ -9,6 +10,12 @@ const API_key='25fd3862e1bab36d44de5742019f1a26';
 searchForm.addEventListener("submit", (e) => {
   e.preventDefault();
   SearchQuery = e.target.querySelector("input").value;
+//   console.log(SearchQuery);
+fetchApi();
+});
+searchbtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  SearchQuery = searchForm.querySelector("input").value;
 //   console.log(SearchQuery);
 fetchApi();
 });

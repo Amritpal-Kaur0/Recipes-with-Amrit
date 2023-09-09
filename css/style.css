@@ -110,6 +110,12 @@ margin-top: 10px;
   right: 10px;
   ;
 }
+#search-btn{
+  height: 35px;
+  width: 9%;
+  object-fit: contain;
+  cursor: pointer;
+}
 .item-data{
     color: rgb(0, 0, 0);
     display: block;
