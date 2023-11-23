@@ -4,6 +4,7 @@
 
 This is a simple Recipe Web App that allows you to search for recipes using a web interface. It's built using HTML, CSS, JavaScript, and utilizes a recipe API to fetch and display recipes with Calorie Count for each Recipe.
 
+
 ## Features
 Recipe Search: You can search for recipes by entering keywords or ingredients in the search bar.
 Recipe Display: The app displays a list of matching recipes with their names and images.
@@ -19,6 +20,9 @@ Adding interactivity to the app, such as handling user input and API calls.
 #### Recipe API: 
 To fetch and display recipe data.
 Api- https://developer.edamam.com/edamam-docs-recipe-api
+
+## Live link :
+https://amritpal-kaur0.github.io/Recipes-with-Amrit/
 
 ## How to Use
 Clone the repository to your local machine.
